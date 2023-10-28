@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+/* Style the navigation bar container */
+
+.header{
+    display: inline-block;
+    align-content: center;
+    background-color: #282424;
+    width: 20%;
+    height: 100%;
+}
+.navbar {
+    overflow: hidden;
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    color: #f2f2f2;
+    padding-top: 30%;
+}
+
+.tags{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    color: #f2f2f2;
+    padding-top: 3%;
+    margin-bottom: 25%;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    padding-bottom: 50px;
+    font-family: Arial, sans-serif;
+    color: #f2f2f2;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #045fbb;
+    color: white;
+    font-weight: bold;
+}
+
+.webbody{
+    display: inline-block;
+    width: 80%;
+    height:100%;
+    background: linear-gradient(0deg,#606060,#282424);}
+.maindiv div {
+    float: left;
+    clear: none;
+ }
+
+ .contact {
+    margin-top:30px;
+    align-items: center;
+ }
+ .contact img {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+ }
+
+ .webbody div {
+    float: left;
+    clear: none;
+ }
+ .portrait img{
+    border-radius: 50%;
+    box-shadow: rgba(201,201,201,0.499);
+ }
+
+ .portrait {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .contact a {
+    color: #ddd;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+ }
+
+ .center-align {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.data {
+    height: 100%;
+    width: 70%;
+}
+.data h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #ddd;
+}
+.copyright {
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.copyright p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #ddd;
+    width: 100%;
+}
